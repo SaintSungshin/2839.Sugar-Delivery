@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	cout << "NÀ» ÀÔ·ÂÇÏ½Ã¿À. (´Ü, 3 ¡Â N ¡Â 5000)" << endl;
+	cout << "Nì„ ì…ë ¥í•˜ì‹œì˜¤. (ë‹¨, 3 â‰¤ N â‰¤ 5000)" << endl;
 	int userNum;
 	cin >> userNum;
 
@@ -17,8 +17,8 @@ int main()
 		if ((userNum % 5) == 0)
 		{
 			sugarFive = userNum / 5;
-			cout << "3kg ºÀÁöÀÇ °³¼ö : " << sugarThree << endl;
-			cout << "5kg ºÀÁöÀÇ °³¼ö : " << sugarFive << endl;
+			cout << "3kg ë´‰ì§€ì˜ ê°œìˆ˜ : " << sugarThree << endl;
+			cout << "5kg ë´‰ì§€ì˜ ê°œìˆ˜ : " << sugarFive << endl;
 			break;
 		}
 
@@ -26,16 +26,16 @@ int main()
 		{
 			sugarThree = i;
 			sugarFive = (userNum - (3 * i)) / 5;
-			cout << "3kg ºÀÁöÀÇ °³¼ö : " << sugarThree << endl;
-			cout << "5kg ºÀÁöÀÇ °³¼ö : " << sugarFive << endl;
+			cout << "3kg ë´‰ì§€ì˜ ê°œìˆ˜ : " << sugarThree << endl;
+			cout << "5kg ë´‰ì§€ì˜ ê°œìˆ˜ : " << sugarFive << endl;
 			break;
 		}
 
 		if ((userNum % 3) == 0)
 		{
 			sugarThree = userNum / 3;
-			cout << "3kg ºÀÁöÀÇ °³¼ö : " << sugarThree << endl;
-			cout << "5kg ºÀÁöÀÇ °³¼ö : " << sugarFive << endl;
+			cout << "3kg ë´‰ì§€ì˜ ê°œìˆ˜ : " << sugarThree << endl;
+			cout << "5kg ë´‰ì§€ì˜ ê°œìˆ˜ : " << sugarFive << endl;
 			break;
 		}
 
