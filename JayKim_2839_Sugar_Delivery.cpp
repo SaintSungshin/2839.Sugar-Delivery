@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+	//이거 아니야. (민진)
 	cout << "N을 입력하시오. (단, 3 ≤ N ≤ 5000)" << endl;
 	int userNum;
 	cin >> userNum;
